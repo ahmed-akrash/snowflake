@@ -1,0 +1,62 @@
+
+body
+{
+	height: 400px;
+	background-image: url(../images/background.jpg)!important;
+}
+#messageBox
+{
+	width: 35%;
+	background-color:rgba(255,250,255,0.2);
+	text-align: center;
+	margin-left: 35%;
+	
+}
+#messageBox .input
+{
+	border: 1px solid #000;
+	border-radius: 2px;
+	min-width:80%;
+	height: 30px;
+}
+#messageBox h1
+{
+	font-size: 60px;
+	padding: 50px;
+	padding-bottom: 20px;
+}
+#messageBox label
+{
+	margin-left: 7%;
+}
+#messageBox input[type="submit"],input[type="reset"]
+{
+	width: 80%;
+	background-color:steelblue;
+	border: 1px solid #000;
+	border-radius: 3px;
+	height: 30px;
+	color: white!important;
+	margin-bottom: 4px;
+	
+}
+input[type="reset"]
+{
+	background-color:mediumseagreen;
+}
+aside
+{
+	background-color: rgba(255,250,255,0.2)!important;
+}
+aside h4,aside h3,aside i
+{
+	color: white!important
+}
+aside div
+{
+	background-color:steelblue ;
+}
+
+/* end massage box*/
+
+/**********************************************************************************************/

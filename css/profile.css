@@ -1,0 +1,360 @@
+
+
+
+/*.wall h1 , .info h1,.info h4
+{
+	color: #232931!important;
+}
+*/
+
+article
+{
+	width: 83%;
+	margin-left:16%;
+	
+}
+.cover
+{
+	min-height: 300px;
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	margin-top:0;
+	
+}
+.info
+{
+	
+	height: 330px;
+	text-align: center;
+
+}
+.info img
+{
+	width: 100px;
+	height: 100px;
+	border: 1px solid white;
+	border-radius: 50%;
+	margin-top: -4.5% ;
+}
+.info h4
+{
+	margin: 10px;
+}
+.wall
+{
+	height: 40px;
+	border-bottom: 1px solid gray;
+	
+}
+
+
+
+.wall a:first-child,.wall a:nth-last-child(2),.wall a:nth-last-child(3),.wall a:nth-last-child(4)
+{
+	border-right: 2px solid gray;
+
+}
+
+.wall div
+{
+	text-align: center;
+	display: inline-block;
+	width: 14%;
+	margin-left: 5%;
+	
+}
+.wall a
+{
+	
+	text-decoration: none;
+}
+#posts
+{
+	
+	text-align:center;
+	position: relative;
+	
+}
+#posts-> img
+{
+	margin-top: 15%;
+	width: 10%;
+	height: 10%;
+}
+#posts-> h3
+{
+	margin-bottom: 15%;
+	
+}
+#posts .post
+{
+	
+	width: 60%;
+	min-height:150px;
+	margin: auto;
+	margin-top:30px;
+	position: relative;
+	text-align: left;
+	background-color:#ffffff;
+}
+#posts .post img:first-child
+{
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	border-radius:50%;
+	margin:0.4% 0.4%;
+	
+}
+#posts .post h2
+{
+	display: inline-block;
+	position: absolute;
+	margin:4% 0.4%;
+
+}
+#posts .post h5
+{
+	display: inline-block;
+	position: absolute;
+	margin:8% 0.4%;
+
+}
+
+#posts .post p
+{
+	margin: 2%;
+	
+}
+#posts .post button
+{
+	position: absolute;
+	top:96%;
+	width: 32%;
+	margin-left: 1%;
+	background-color: white;
+	border-radius:3px; 
+}
+
+#posts .post button:nth-of-type(2)
+{
+	left:0%;
+}
+#posts .post button:nth-of-type(3)
+{
+	left:33%;
+}
+#posts .post button:nth-of-type(4)
+{
+	left:66%;
+}
+
+#posts .post .post_img
+{
+	width: 100%;
+}
+
+#posts .post .post_img img
+{
+	min-width:90% ;
+	min-height: 450px;
+	max-width:500px ;
+	margin-left: 4%;
+	display: block;
+	padding-bottom: 5%;
+	margin-bottom: 5%;
+	border: 0;
+	border-radius: 5px;
+}
+
+#photos
+{
+	position: relative;
+}
+
+#photos .photo
+{
+	width: 30%;
+	min-height:200px;
+	margin-top:40px;
+	margin-left: 3%;
+	border: 1px solid black;
+	border-radius: 4px;
+	position: relative;
+	text-align: left;
+	background-color:#fff;
+	float: left;
+}
+
+
+
+#photos .photo button
+{
+	position: absolute;
+	top:89%;
+	width: 45%;
+	margin-left: 2%;
+	border-radius:3px;
+	background-color: transparent;
+}
+#photos .photo button:nth-of-type(2)
+{
+	left:50%;
+}
+
+
+#photo .photo .photo_img
+{
+	width: 100%;
+	max-hight:500px;
+	border-raduis:3px;
+}
+
+
+
+
+#photos .photo  img
+{
+	width:95%;
+	height: 200px;
+	max-width:95% ;
+	max-height: 200px;
+	margin: 3%;
+	display: block;
+	margin-bottom: 10%;
+	border-raduis:3px;
+}
+
+
+
+
+#friend
+{
+	text-align:center;
+}
+
+
+
+
+#friends .friend
+{
+	width: 70%;
+	min-height:300px;
+	
+	margin-left: 15%;
+	margin-top:30px;
+	border-radius: 3px;
+	position: relative;
+	text-align: left;
+	background-color:#fff;
+	
+}
+
+
+
+#friends .friend button
+{
+	position: absolute;
+	top:92%;
+	width: 30%;
+	margin-left:1%;
+	background-color: transparent;
+}
+#friends .friend .second
+{
+	left:33%;
+}
+#friends .friend .therd
+{
+	left:66%;
+}
+
+
+
+
+
+#friends .friend  img
+{
+	width:80px;
+	height: 80px;
+	margin: 3%;
+	display: inline;
+	border: 0;
+	border-radius: 50%;
+}
+
+#friends .friend h2
+{
+	display: inline-block;
+	position: absolute;
+	margin:2.5% 0.4%;
+	color:dodgerblue!important; 
+
+}
+#friends .friend h3
+{
+	display: inline-block;
+	position: absolute;
+	margin:5.8% 0.4%;
+	padding-left: 10px;
+
+}
+#friends .friend h4
+{
+	margin-left: 5%;
+	margin-bottom:7px;
+}
+
+#friends .friend a
+{
+	text-decoration: none;
+}
+/***************************************************************/
+#pro_share .message
+{
+	width: 60%;
+	min-height:120px;
+	text-align: left;
+	background-color:#ffffff;
+	position: absolute;
+	top:30px;
+	left: 20%;
+}
+#pro_share .message img:first-child
+{
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	border-radius:50%;
+	margin:0.4% 0.4%;
+	
+}
+#pro_share .message h4
+{
+	display: inline-block;
+	position:absolute;
+	top:36%;
+	left: 9%;
+}
+#pro_share  textarea
+{	position:absolute;
+	top:30%;
+	left: 15%;
+	width: 76%;
+	border-radius: 3px;
+}
+#pro_share  input[type="file"]
+{	position:absolute;
+	top:75%;
+	left: 15%;
+	width: 76%;
+	border-radius: 10px;
+}
+#pro_share  input[type="submit"]
+{	position:absolute;
+	top:36%;
+	left: 92%;
+	width: 7%;
+	border-radius: 3px;
+	background-color: #edf1f5;
+}

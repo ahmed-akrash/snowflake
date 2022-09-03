@@ -1,0 +1,29 @@
+#notifications
+{
+	
+	text-align:center;
+	margin-left: 13%;
+	margin-top: 7%;
+}
+
+#notifications .notification
+{
+	width: 75%;
+	min-height:40px;
+	margin: auto;
+	margin-top:15px;
+	border-radius: 3px;
+	text-align: center;
+	background-color:#fff;
+}
+
+#notifications .notification h3
+{
+	margin: auto;
+
+}
+a
+{
+	color:steelblue!important;
+}
+
